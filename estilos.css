@@ -1,0 +1,341 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*--- Estilos Generales ---*/
+body{
+    background:#1b3856;
+    font-family:Arial, Helvetica, Sans-serif;
+
+}
+
+a {text-decoration: white;}
+a:hover{text-decoration:underline;}
+
+#wrap {
+    width: 960px;
+     margin:auto;
+     clear: both;
+}
+
+/*--- HEADER ---*/
+
+header {
+    width:100%;
+    float:left;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+background: #3b679e; /* Old browsers */
+background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+box-shadow:0px 3px 5px #000;
+-moz-box-shadow:0px 3px 5px #000;
+-webkit-box-shadow:0px 3px 5px #000;
+
+}
+
+#subheader{
+    width:960px;
+    margin:auto;
+
+}
+
+#logotipo {
+    float: left;
+    width:300px;
+    padding:10px, 0px;
+}
+
+#logotipo {
+    font-family:Bangers;
+    font-size:30px;
+    color: black;
+}
+
+#logotipo a:hover {text-decoration: none;}
+
+/*Menu*/
+header #subheader nav {
+    float: left;
+    width:660px;
+    padding:30px 0px;
+    text-align:right;
+}
+
+ header #subheader nav ul li {
+     display: inline;
+     font-family:Bangers;
+
+ }
+ header #subheader nav ul li a {
+     color: black;
+     font-size:18px;
+     padding:10px;
+         border-radius:2px;
+         -moz-border-radius:2px;
+         -webkit-border-radius:2px;
+ } 
+ header #subheader nav ul li a:hover {
+     color:black;
+     background:white;
+     text-decoration:none;
+
+ } 
+ /*--- MAIN ---*/
+
+#main {
+    width:100%;
+    margin:20px 0px 0px 0px;
+    float: left;
+}
+/*Slideshow*/
+#slideshow{
+    width:920px;
+    height:260px;
+    float: left;
+    background:black;
+    border: solid 20px white;
+    margin-bottom:10px;
+
+}
+
+#slideshow .pagination {
+    margin:26px auto;
+    width:100px;   
+}
+
+#slideshow .pagination li {
+    float: left;
+    margin:0px 5px;
+    list-style-type:none;
+    
+}
+
+#slideshow img {
+    width:920px;
+    height:260px;
+    
+}
+
+
+#slideshow .pagination li a {
+    display:block;
+    width:12px;
+    height:0px;
+    padding-top:12px;
+    background:white;
+    float: left;
+    overflow: hidden;
+    border-radius:10px;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
+
+
+}
+
+
+
+/*--- Bienvenidos---*/
+#bienvenidos {
+    width:920px;
+    float: left;
+    padding:20px;
+    background:#1C5C98;
+    margin:20px 0px;
+        border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-redius:5px;
+    box-shadow:0px 2px 2px black;
+    -moz-box-shadow:0px 2px 2px black;
+    -webkit-box-shadow:0px 2px 2px black;
+
+}
+
+#bienvenidos article h2 {
+    font-family:Bangers;
+    color: black;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+#bienvenidos article {
+    color: black;
+    line-height:27px;
+}
+/*--CONTENIDO--*/
+ #contenido {
+     width:700px;
+     float: left;
+ }
+ #contenido article {
+     float: left;
+     margin-bottom:20px;
+
+ }
+ #contenido article .titulo {
+     font-size: 22px;
+     font-family:Bangers;
+     color:white;
+ }
+
+ #contenido article .fecha{
+     font-size: 14px;
+     color: white;
+     margin-bottom:5px;
+ }
+
+ #contenido article .thumb {
+    width:220px;
+    height:150px;
+    float: left;
+    margin:0px 10px 10px 0px;
+ }
+
+ #contenido article .Cloe {
+     width:220px;
+     height:150px;
+     float: left;
+     margin:0px 10px 10px 0px;
+ }
+
+#contenido article .Perico {
+    width:220px;
+    height:150px;
+    float: left;
+    margin:0px 10px 10px 0px;
+}
+
+#contenido article > p {
+    color: black;
+    font-size:14px;
+    text-align:justify;
+    
+}
+
+/*--SIDEBAR---*/
+aside{
+    width:220px;
+    float: left;
+    margin-left:20px;
+    background:#2463b9;
+    padding:10px 10px 0px 10px;
+    border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+    box-shadow:0px 2px 2px black;
+        -moz-box-shadow:0px 2px 2px black;
+        -webkit-box-shadow:0px 2px 2px black;
+}
+
+aside .widget {
+    margin-bottom:10px;
+    float: left;
+    
+}
+
+aside .Perico {
+    width:220px;
+    height:150px;
+}
+
+aside .widget > h3 {
+    background: white;
+    color:black;
+    width:220px;
+    padding:10px 0px;
+    text-align: center;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+aside .widget a {color:white;}
+aside .widget ul li {margin-bottom:5px;}
+aside .widget img {width: 220px;}
+
+
+/*Footer*/
+footer {
+    width:100%;
+    float: left;
+    clear: both;
+    box-shadow:0px 2px 2px black;
+        -moz-box-shadow:0px 2px 2px black;
+        -webkit-box-shadow:0px 2px 2px black;
+    border-radius:5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        background-color:#2f3c4a;
+} 
+footer section {
+    width:440px;
+    float: left;
+    padding:20px;
+
+} 
+
+footer #acerca-de{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:white;
+    text-align: justify;
+    line-height:20px;
+}
+
+footer #acerca-de{
+    font-family:Bangers;
+    font-size:20px;
+    margin-bottom:5px;
+}
+
+footer #redes-s > div {
+    width:220px;
+    height:60px;
+    float: left;
+    background: chocolate;
+    opacity:0.5;
+}
+
+footer #redes-s > div a {
+    width:220px;
+    height:60px;
+    display: inline-block;
+}
+
+footer #redes-s .Twitter {
+    background:url(../Imagenes/TWITTER.PNG);
+    margin-bottom:15px;
+}
+
+footer #redes-s .Facebook {
+    background:url(../Imagenes/FACEBOOK.PNG);
+    
+}
+
+footer #redes-s .Email{
+    background:url(../Imagenes/GOOGLE.PNG);
+    margin-bottom:15px;
+  
+}
+footer #redes-s .Youtube {
+    background:url(../Imagenes/YOUTUBE.PNG);
+
+}
+
+footer #redes-s > div:hover {
+    opacity:6;
+}
+
+#copyright {
+    float: left;
+    width:960px;
+    margin: 10px 0px;
+
+}
+
+#copyright {
+    text-align: center;
+    font-size:12;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
